@@ -277,6 +277,11 @@ i,
     transition: var(--transition);
 }
 
+.portfolio .subheading a {
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
 .card {
     width: 16rem;
     height: 28.5rem !important;
