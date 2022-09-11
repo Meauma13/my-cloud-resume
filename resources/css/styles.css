@@ -166,7 +166,6 @@ section {
 
     .nav-header {
         display: none;
-        /* padding: 0 0; */
     }
 
     .nav-links {
@@ -202,6 +201,23 @@ section {
 
     .nav-link {
         font-size: 1.1rem;
+    }
+}
+
+/* landscpae orientation for smartphones */
+@media screen and (max-height: 450px) {
+    .nav-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 0.4rem 2rem;
+        font-size: 0.8rem;
+    }
+
+    .show-links {
+        height: 200px;
     }
 }
 
