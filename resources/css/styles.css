@@ -221,6 +221,17 @@ section {
     }
 }
 
+@media screen and (max-height: 450px) and (min-width: 992px) {
+    .nav-link {
+        padding: 0 0;
+        font-size: 0.9rem;
+    }
+
+    .nav-links {
+        padding-left: 5rem;
+    }
+}
+
 .header,
 .footer {
     text-align: center;
@@ -339,12 +350,32 @@ i,
     }
 }
 
+.certifications {
+    margin-bottom: 2rem;
+}
+
 .certifications ul {
     list-style-type: "✔  ";
 }
 
 .references {
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+}
+
+.pageView {
+    align-items: center;
+    display: flex;
+    font-size: 0.9rem;
+    justify-content: end;
+    margin: 1rem;
+}
+
+#countPageViews {
+    margin: 0;
+}
+
+#resetbtn {
+    margin-left: 1rem;
 }
 
 /* .footer {
