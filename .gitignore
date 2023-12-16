@@ -4,11 +4,11 @@ __pycache__/
 *$py.class
 
 # newly added exclusions on 16th December, 2023.
-HttpTriggerVisitor/
-host.json
-requirements.txt
-.funcignore
-.vscode
+HttpTriggerVisitor*
+host.json*
+requirements.txt*
+.funcignore*
+.vscode*
 
 # C extensions
 *.so
