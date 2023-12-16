@@ -1,11 +1,14 @@
 # Byte-compiled / optimized / DLL files
-HttpTriggerVisitor/
 __pycache__/
 *.py[cod]
 *$py.class
 
+# newly added exclusions on 16th December, 2023.
+HttpTriggerVisitor/
 host.json
 requirements.txt
+.funcignore
+.vscode
 
 # C extensions
 *.so
